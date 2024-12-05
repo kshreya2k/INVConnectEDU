@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Recommendation</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Hi, {{ name }}!</h1>
+    </header>
+
+    <main>
+        <p>Your personalized investment recommendation:</p>
+        <blockquote>{{ recommendation }}</blockquote>
+        <h2>Visualization</h2>
+        <img src="{{ plot_url }}" alt="Income vs. Savings Goal" class="chart">
+        <br><br>
+        <a href="/" class="btn">Go Back</a>
+    </main>
+
+    <footer>
+        <p>© 2024 InvConnectEDU. All rights reserved.</p>
+    </footer>
+</body>
+</html>
